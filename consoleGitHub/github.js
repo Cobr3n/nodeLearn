@@ -6,7 +6,7 @@ function getRepos(username, done){
     const options = {
         hostname: 'api.github.com',
         path: `/users/${username}/repos`,
-        headers: { 'User-Agent': 'codedojo'}
+        headers: { 'User-Agent': 'Cobr3n'}
     };
 
     const req = http.get(options, res => {
