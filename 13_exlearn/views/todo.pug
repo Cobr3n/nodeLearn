@@ -1,0 +1,16 @@
+extends base
+block main
+    if todo
+        p#todo
+            b id:
+            span=todo.id
+            b <br/>title:
+            span=todo.title
+            b <br/>completed:
+            span=todo.completed
+
+
+
+
+    else
+        p Задачи не существует
